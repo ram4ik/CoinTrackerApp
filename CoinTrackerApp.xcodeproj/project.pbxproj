@@ -11,6 +11,10 @@
 		95CB74B5251DCC2C004BED7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74B4251DCC2C004BED7A /* ContentView.swift */; };
 		95CB74B7251DCC2D004BED7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB74B6251DCC2D004BED7A /* Assets.xcassets */; };
 		95CB74BA251DCC2D004BED7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB74B9251DCC2D004BED7A /* Preview Assets.xcassets */; };
+		95CB74C8251DCD91004BED7A /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74C7251DCD91004BED7A /* CoinService.swift */; };
+		95CB74CC251DD259004BED7A /* CoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74CB251DD259004BED7A /* CoinResponse.swift */; };
+		95CB74CF251DD269004BED7A /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74CE251DD269004BED7A /* CoinData.swift */; };
+		95CB74D2251DD276004BED7A /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74D1251DD276004BED7A /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		95CB74B6251DCC2D004BED7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95CB74B9251DCC2D004BED7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95CB74BB251DCC2D004BED7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CB74C7251DCD91004BED7A /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
+		95CB74CB251DD259004BED7A /* CoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResponse.swift; sourceTree = "<group>"; };
+		95CB74CE251DD269004BED7A /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		95CB74D1251DD276004BED7A /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,9 @@
 		95CB74C3251DCC66004BED7A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74CB251DD259004BED7A /* CoinResponse.swift */,
+				95CB74CE251DD269004BED7A /* CoinData.swift */,
+				95CB74D1251DD276004BED7A /* Coin.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -91,6 +102,7 @@
 		95CB74C4251DCC72004BED7A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74C7251DCD91004BED7A /* CoinService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -178,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CB74D2251DD276004BED7A /* Coin.swift in Sources */,
 				95CB74B5251DCC2C004BED7A /* ContentView.swift in Sources */,
+				95CB74CC251DD259004BED7A /* CoinResponse.swift in Sources */,
+				95CB74CF251DD269004BED7A /* CoinData.swift in Sources */,
+				95CB74C8251DCD91004BED7A /* CoinService.swift in Sources */,
 				95CB74B3251DCC2C004BED7A /* CoinTrackerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
