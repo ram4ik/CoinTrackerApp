@@ -52,6 +52,11 @@
 		95CB74B1251DCC2C004BED7A /* CoinTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74C6251DCC96004BED7A /* Controls */,
+				95CB74C5251DCC8B004BED7A /* Extensions */,
+				95CB74C4251DCC72004BED7A /* Services */,
+				95CB74C3251DCC66004BED7A /* Models */,
+				95CB74C2251DCC3D004BED7A /* Views */,
 				95CB74B2251DCC2C004BED7A /* CoinTrackerAppApp.swift */,
 				95CB74B4251DCC2C004BED7A /* ContentView.swift */,
 				95CB74B6251DCC2D004BED7A /* Assets.xcassets */,
@@ -67,6 +72,41 @@
 				95CB74B9251DCC2D004BED7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95CB74C2251DCC3D004BED7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		95CB74C3251DCC66004BED7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		95CB74C4251DCC72004BED7A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		95CB74C5251DCC8B004BED7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		95CB74C6251DCC96004BED7A /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
