@@ -19,6 +19,10 @@
 		95CB74D8251DD56C004BED7A /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74D7251DD56C004BED7A /* CoinListViewModel.swift */; };
 		95CB74DB251DD6E2004BED7A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74DA251DD6E2004BED7A /* Color+Extension.swift */; };
 		95CB74DE251DD9AA004BED7A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74DD251DD9AA004BED7A /* Double+Extension.swift */; };
+		95CB74E1251DDF4C004BED7A /* NewmorficShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74E0251DDF4C004BED7A /* NewmorficShadow.swift */; };
+		95CB74E4251DE016004BED7A /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74E3251DE016004BED7A /* LineGraph.swift */; };
+		95CB74E8251DE212004BED7A /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74E7251DE212004BED7A /* GraphView.swift */; };
+		95CB74EB251DE2EE004BED7A /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74EA251DE2EE004BED7A /* CoinCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		95CB74D7251DD56C004BED7A /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
 		95CB74DA251DD6E2004BED7A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		95CB74DD251DD9AA004BED7A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		95CB74E0251DDF4C004BED7A /* NewmorficShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewmorficShadow.swift; sourceTree = "<group>"; };
+		95CB74E3251DE016004BED7A /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		95CB74E7251DE212004BED7A /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		95CB74EA251DE2EE004BED7A /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 		95CB74B1251DCC2C004BED7A /* CoinTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74E6251DE200004BED7A /* Views */,
 				95CB74C6251DCC96004BED7A /* Controls */,
 				95CB74C5251DCC8B004BED7A /* Extensions */,
 				95CB74C4251DCC72004BED7A /* Services */,
@@ -129,8 +138,19 @@
 		95CB74C6251DCC96004BED7A /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74E0251DDF4C004BED7A /* NewmorficShadow.swift */,
+				95CB74E3251DE016004BED7A /* LineGraph.swift */,
 			);
 			path = Controls;
+			sourceTree = "<group>";
+		};
+		95CB74E6251DE200004BED7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95CB74E7251DE212004BED7A /* GraphView.swift */,
+				95CB74EA251DE2EE004BED7A /* CoinCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,13 +224,17 @@
 			files = (
 				95CB74D2251DD276004BED7A /* Coin.swift in Sources */,
 				95CB74DB251DD6E2004BED7A /* Color+Extension.swift in Sources */,
+				95CB74EB251DE2EE004BED7A /* CoinCell.swift in Sources */,
 				95CB74B5251DCC2C004BED7A /* ContentView.swift in Sources */,
 				95CB74D5251DD533004BED7A /* CoinViewModel.swift in Sources */,
+				95CB74E4251DE016004BED7A /* LineGraph.swift in Sources */,
 				95CB74D8251DD56C004BED7A /* CoinListViewModel.swift in Sources */,
+				95CB74E8251DE212004BED7A /* GraphView.swift in Sources */,
 				95CB74CC251DD259004BED7A /* CoinResponse.swift in Sources */,
 				95CB74CF251DD269004BED7A /* CoinData.swift in Sources */,
 				95CB74C8251DCD91004BED7A /* CoinService.swift in Sources */,
 				95CB74DE251DD9AA004BED7A /* Double+Extension.swift in Sources */,
+				95CB74E1251DDF4C004BED7A /* NewmorficShadow.swift in Sources */,
 				95CB74B3251DCC2C004BED7A /* CoinTrackerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

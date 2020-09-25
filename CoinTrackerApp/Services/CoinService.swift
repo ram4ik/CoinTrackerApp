@@ -14,7 +14,7 @@ final class CoinService {
     lazy var urlComponents: URLComponents = {
         var component = URLComponents()
         component.scheme = "https"
-        component.host = "api.cointraking.com"
+        component.host = "api.coinranking.com"
         component.path = "/v1/public/coins"
         component.queryItems = [
             URLQueryItem(name: "base", value: "USD"),
