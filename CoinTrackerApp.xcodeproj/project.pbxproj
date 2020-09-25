@@ -15,6 +15,10 @@
 		95CB74CC251DD259004BED7A /* CoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74CB251DD259004BED7A /* CoinResponse.swift */; };
 		95CB74CF251DD269004BED7A /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74CE251DD269004BED7A /* CoinData.swift */; };
 		95CB74D2251DD276004BED7A /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74D1251DD276004BED7A /* Coin.swift */; };
+		95CB74D5251DD533004BED7A /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74D4251DD533004BED7A /* CoinViewModel.swift */; };
+		95CB74D8251DD56C004BED7A /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74D7251DD56C004BED7A /* CoinListViewModel.swift */; };
+		95CB74DB251DD6E2004BED7A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74DA251DD6E2004BED7A /* Color+Extension.swift */; };
+		95CB74DE251DD9AA004BED7A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB74DD251DD9AA004BED7A /* Double+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		95CB74CB251DD259004BED7A /* CoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResponse.swift; sourceTree = "<group>"; };
 		95CB74CE251DD269004BED7A /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		95CB74D1251DD276004BED7A /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		95CB74D4251DD533004BED7A /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		95CB74D7251DD56C004BED7A /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
+		95CB74DA251DD6E2004BED7A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		95CB74DD251DD9AA004BED7A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +72,7 @@
 				95CB74C5251DCC8B004BED7A /* Extensions */,
 				95CB74C4251DCC72004BED7A /* Services */,
 				95CB74C3251DCC66004BED7A /* Models */,
-				95CB74C2251DCC3D004BED7A /* Views */,
+				95CB74C2251DCC3D004BED7A /* ViewModels */,
 				95CB74B2251DCC2C004BED7A /* CoinTrackerAppApp.swift */,
 				95CB74B4251DCC2C004BED7A /* ContentView.swift */,
 				95CB74B6251DCC2D004BED7A /* Assets.xcassets */,
@@ -82,11 +90,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		95CB74C2251DCC3D004BED7A /* Views */ = {
+		95CB74C2251DCC3D004BED7A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74D4251DD533004BED7A /* CoinViewModel.swift */,
+				95CB74D7251DD56C004BED7A /* CoinListViewModel.swift */,
 			);
-			name = Views;
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 		95CB74C3251DCC66004BED7A /* Models */ = {
@@ -110,6 +120,8 @@
 		95CB74C5251DCC8B004BED7A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				95CB74DA251DD6E2004BED7A /* Color+Extension.swift */,
+				95CB74DD251DD9AA004BED7A /* Double+Extension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -191,10 +203,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95CB74D2251DD276004BED7A /* Coin.swift in Sources */,
+				95CB74DB251DD6E2004BED7A /* Color+Extension.swift in Sources */,
 				95CB74B5251DCC2C004BED7A /* ContentView.swift in Sources */,
+				95CB74D5251DD533004BED7A /* CoinViewModel.swift in Sources */,
+				95CB74D8251DD56C004BED7A /* CoinListViewModel.swift in Sources */,
 				95CB74CC251DD259004BED7A /* CoinResponse.swift in Sources */,
 				95CB74CF251DD269004BED7A /* CoinData.swift in Sources */,
 				95CB74C8251DCD91004BED7A /* CoinService.swift in Sources */,
+				95CB74DE251DD9AA004BED7A /* Double+Extension.swift in Sources */,
 				95CB74B3251DCC2C004BED7A /* CoinTrackerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
